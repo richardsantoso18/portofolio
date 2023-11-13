@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+.nav {
+    background-color: orangered;
+    background-size: cover;
+    position:static;
+    display: flex;
+    font-family: cursive;
+    
+
+}
+
+.nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 17px;
+    position: static;
+    display: flex;
+    text-decoration:none;
+    background-color:orangered;
+    transition: 0.3s;
+}
+.nav a:hover {
+    color: black;
+    font-family: monospace;
+    background-color: #ffc115;
+    
+}
+
+
+.about{
+    margin: 50px 200px;
+    float: left;
+    display: flex;
+    padding: 0px 30px 0px;
+    align-items: center;
+    text-align: justify;
+    font-size: x-large;
+    font-family: cursive;
+    background-color: ivory;
+    border-radius: 50px;
+}
+
+.pp{
+    width: 250px;
+    height: 250px;
+}
+
