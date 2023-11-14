@@ -4,13 +4,11 @@ body{
     background-color: aliceblue;
 }
 .nav {
-    background-color: orangered;
+    background-color: black;
     background-size: cover;
     position:static;
     display: flex;
     font-family: cursive;
-    
-
 }
 
 .nav a {
@@ -22,32 +20,118 @@ body{
     position: static;
     display: flex;
     text-decoration:none;
-    background-color:orangered;
     transition: 0.3s;
 }
 .nav a:hover {
     color: black;
-    font-family: monospace;
     background-color: #ffc115;
+}
+.nav a:active,:focus{
+    text-decoration: underline;
+}
+
+
+.Home{
+    height: 550px;
+}
+.landing{
+    margin: 200px;
+    padding: 0px 30px 0px;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
     
 }
 
+.pp{
+    width: auto;
+    height: 250px;
+    filter: grayscale(100%);
+    display: block;
+    margin: 0 auto;
+}
 
-.about{
-    margin: 50px 200px;
-    float: left;
-    display: flex;
-    padding: 0px 30px 0px;
+.landing a:hover{
+    opacity: 0.8;
+    transition: 1s;
+
+}
+.text1{
+    font-family: cursive;
     align-items: center;
     text-align: justify;
     font-size: x-large;
+}
+
+.porto {
+    background-size: cover;
+    position:static;
+    display: flex;
     font-family: cursive;
-    background-color: ivory;
-    border-radius: 50px;
 }
 
-.pp{
-    width: 250px;
-    height: 250px;
+.porto a {
+    float: left;
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    padding: 0px 20px;
+    font-size: 17px;
+    position: static;
+    display: flex;
+    text-decoration:none;
+    transition: 0.3s;
+}
+.porto a:hover{
+    transition: 0.2s;
+    opacity: 0.6;
+} 
+.edutitle{
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+}
+.education{
+    padding-top: 50px;
+    background-image: url(./Asset/360_F_500345899_4OqmtspFst6SRnNQvLj7h7TfKOrBwTer.jpg);
+}
+.edu1{
+    /* background-color: #ffc115; */
+    display: block;
+    /* float: left;    */
+    height: 200px;
+    padding: 50px;
+    text-align: center;
+    background-image: url(Asset/);
+}
+.edu2{
+    /* background-color: #ffc115; */
+    display: block;
+    /* float: right;  */
+    height: 200px;
+    padding: 50px;
+
+    text-align: center;
+
+}   
+.edu1,.edu2{
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.certificate{
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+.ecerti{
+    margin: 50px;
+    text-align: center;
+}
+.ecerti a:hover{
+    opacity: 0.6;
+}
+.ui,.ux,.ppt,.uw,.seo,.canva{
+    margin: 20px;
+}
