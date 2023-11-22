@@ -159,9 +159,9 @@ body{
 .about {
     text-align: center;
     background-image: url(Asset/bg-2.png);
+    background-repeat: no-repeat;
     background-size: 100%;
-    padding: 100px;
-    margin: 0px;
+    padding: 50px 15px;
     height: 700px;
     -webkit-box-shadow:0px -36px 39px 10px rgba(62,66,66,0.22);
     -moz-box-shadow: 0px -36px 39px 10px rgba(62,66,66,0.22);
@@ -179,6 +179,7 @@ body{
     text-align: justify;
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
     float: right;
 }
 .bioabout{
@@ -211,8 +212,4 @@ footer .fa ,.fab{
 .fa:hover,.fab:hover {
     opacity: 0.6;
     color: black;
-}
-.porto .fa{
-    font-size: 40px;
-    width: 50px;
 }
