@@ -71,7 +71,8 @@ body{
     font-size: x-large;
     background-color: orangered;
     border-radius:54% 46% 82% 18% / 0% 23% 77% 100% ;
-    padding-right: 15px;
+    padding-right: 25px;
+    padding-left: 50px;
     padding-top: 15px;
 }
 
@@ -149,6 +150,7 @@ box-shadow: 0px -36px 39px 10px rgba(62,66,66,0.22);
 
 .ecerti{
     margin: 50px;
+    background-color: aliceblue;
     text-align: center;
     -webkit-box-shadow:0px 0px 105px 45px rgba(71,71,71,0.9);
     -moz-box-shadow: 0px 0px 105px 45px rgba(71,71,71,0.9);
