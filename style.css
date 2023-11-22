@@ -3,32 +3,37 @@ body{
     padding: 0px;
     background-color: aliceblue;
 }
-.nav {
+#navbar {
     background-color: black;
-    background-size: cover;
-    position:static;
-    display: flex;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
     font-family: cursive;
-}
-
-.nav a {
+  }
+  
+  #navbar a {
     float: left;
-    color: white;
+    display: block;
+    color: #f2f2f2;
     text-align: center;
     padding: 15px 20px;
+    text-decoration: none;
     font-size: 17px;
-    position: static;
-    display: flex;
-    text-decoration:none;
     transition: 0.3s;
 }
-.nav a:hover {
-    color: black;
+  
+  #navbar a:hover {
     background-color: #ffc115;
-}
-.nav a:active,:focus{
+    color: black;
+  }
+
+#navbar a:focus{ 
     text-decoration: underline;
-}
+    background-color: orange;
+    color: black;
+} 
 
 
 .Home{
@@ -41,12 +46,12 @@ body{
     border-radius: 50px;
     justify-content: center;
     
+    
 }
 
 .pp{
     width: auto;
     height: 250px;
-    filter: grayscale(100%);
     display: block;
     margin: 0 auto;
 }
@@ -54,13 +59,17 @@ body{
 .landing a:hover{
     opacity: 0.8;
     transition: 1s;
-
+    
 }
 .text1{
     font-family: cursive;
     align-items: center;
     text-align: justify;
     font-size: x-large;
+    background-color: orangered;
+    border-radius:54% 46% 82% 18% / 0% 23% 77% 100% ;
+    padding-right: 15px;
+    padding-top: 15px;
 }
 
 .porto {
@@ -92,7 +101,7 @@ body{
     text-decoration: underline;
 }
 .education{
-    padding-top: 50px;
+    padding-top: 70px;
     background-image: url(./Asset/360_F_500345899_4OqmtspFst6SRnNQvLj7h7TfKOrBwTer.jpg);
 }
 .edu1{
@@ -123,15 +132,37 @@ body{
     text-align: center;
     font-family: cursive;
     text-decoration: underline;
+
+}
+.organiz{
+    color: gray;
 }
 
 .ecerti{
     margin: 50px;
     text-align: center;
+    -webkit-box-shadow:0px 0px 105px 45px rgba(71,71,71,0.9);
+-moz-box-shadow: 0px 0px 105px 45px rgba(71,71,71,0.9);
+box-shadow: 0px 0px 105px 45px rgba(71,71,71,0.9);
 }
 .ecerti a:hover{
     opacity: 0.6;
+    -webkit-box-shadow:0px 10px 30px 5px rgba(62,66,66,0.22);
+-moz-box-shadow: 0px 10px 30px 5px rgba(62,66,66,0.22);
+box-shadow: 0px 10px 30px 5px rgba(62,66,66,0.22);
+    
 }
 .ui,.ux,.ppt,.uw,.seo,.canva{
     margin: 20px;
+}
+.con{
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+}
+.Contact{
+    /* background-image: url(Asset/hero.jpg); */
+    margin: 50px;
+    
+    
 }
