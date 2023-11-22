@@ -11,9 +11,9 @@ body{
     display: block;
     transition: top 0.3s;
     font-family: cursive;
-  }
+}
   
-  #navbar a {
+#navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -24,39 +24,54 @@ body{
     transition: 0.3s;
 }
   
-  #navbar a:hover {
+#navbar a:hover {
+    color: black;
+}
+
+.nav a:hover{
     background-color: #ffc115;
     color: black;
-  }
+}
+.rightnav a:hover{
+    background-color: orangered;
+    color: black;
+
+}
 
 #navbar a:focus{ 
     text-decoration: underline;
-    background-color: orange;
     color: black;
 } 
 .rightnav{
     float: right;
 }
+#navbar rightnav a:hover{
+    background-color: red;
+}
 
 
 .Home{
-    height: 550px;
+    height: 600px;
+    width: auto;
+    background-image: url(Asset/bg1.jpg);
+    padding: 200px 100px;
 }
 .landing{
-    margin: 300px 200px;
-    padding: 0px 30px 0px;
-    display: flex;
-    border-radius: 50px;
+    margin: 0px 50px;
     justify-content: center;
-    
+    text-align: center;
     
 }
 
 .pp{
-    width: auto;
-    height: 250px;
+    width: 30%;
+    max-width:300px;
     display: block;
-    margin: 0 auto;
+    margin: 50px;
+    border: solid white ;
+    border-radius:30% 70% 70% 30% / 30% 30% 70% 70%  ;
+    float: left;
+    background-image: url(Asset/bgpp.jpg);
 }
 
 .landing a:hover{
@@ -69,36 +84,13 @@ body{
     align-items: center;
     text-align: justify;
     font-size: x-large;
-    background-color: orangered;
-    border-radius:54% 46% 82% 18% / 0% 23% 77% 100% ;
     padding-right: 25px;
     padding-left: 65px;
     padding-top: 15px;
+    width: 50%;
+    float: right;
 }
 
-.porto {
-    background-size: cover;
-    position:static;
-    display: flex;
-    font-family: cursive;
-}
-
-.porto a {
-    float: left;
-    color: white;
-    text-align: center;
-    margin: 0px 60px;
-
-    font-size: 17px;
-    position: static;
-    display: flex;
-    text-decoration:none;
-    transition: 0.3s;
-}
-.porto a:hover{
-    transition: 0.2s;
-    opacity: 0.6;
-} 
 .edutitle{
     text-align: center;
     font-family: cursive;
@@ -107,26 +99,22 @@ body{
 .education{
     margin-top: 50px;
     padding-top: 70px;
-    background-image: url(./Asset/360_F_500345899_4OqmtspFst6SRnNQvLj7h7TfKOrBwTer.jpg);
+    background-image: url(./Asset/bg3.jpg);
     -webkit-box-shadow:0px -36px 39px 10px rgba(62,66,66,0.22);
--moz-box-shadow: 0px -36px 39px 10px rgba(62,66,66,0.22);
-box-shadow: 0px -36px 39px 10px rgba(62,66,66,0.22);
+    -moz-box-shadow: 0px -36px 39px 10px rgba(62,66,66,0.22);
+    box-shadow: 0px -36px 39px 10px rgba(62,66,66,0.22);
 
     
 }
 .edu1{
-    /* background-color: #ffc115; */
     display: block;
-    /* float: left;    */
     height: 200px;
     padding: 50px;
     text-align: center;
-    background-image: url(Asset/);
+
 }
 .edu2{
-    /* background-color: #ffc115; */
     display: block;
-    /* float: right;  */
     height: 200px;
     padding: 50px;
 
@@ -156,6 +144,7 @@ box-shadow: 0px -36px 39px 10px rgba(62,66,66,0.22);
     -moz-box-shadow: 0px 0px 105px 45px rgba(71,71,71,0.9);
     box-shadow: 0px 0px 105px 45px rgba(71,71,71,0.9);
 }
+
 .ecerti a:hover{
     opacity: 0.6;
     -webkit-box-shadow:0px 10px 30px 5px rgba(62,66,66,0.22);
@@ -163,31 +152,67 @@ box-shadow: 0px -36px 39px 10px rgba(62,66,66,0.22);
     box-shadow: 0px 10px 30px 5px rgba(62,66,66,0.22);
     
 }
-.ui,.ux,.ppt,.uw,.seo,.canva{
+.ui,.ux,.ppt,.uw,.seo,.canva,.DS{
     margin: 20px;
 }
-.con{
-    text-align: center;
-    font-family: cursive;
-    text-decoration: underline;
-}
-.Contact{
-    /* background-image: url(Asset/hero.jpg); */
-    margin: 50px;
-    
-    
-}
 
-/* .about {
+.about {
     text-align: center;
-    background-image: url(Asset/hero.jpg);
+    background-image: url(Asset/bg-2.png);
+    background-size: 100%;
+    padding: 100px;
+    margin: 0px;
+    height: 700px;
+    -webkit-box-shadow:0px -36px 39px 10px rgba(62,66,66,0.22);
+    -moz-box-shadow: 0px -36px 39px 10px rgba(62,66,66,0.22);
+    box-shadow: 0px -36px 39px 10px rgba(62,66,66,0.22);
+    
 }
 .about h1{
     text-decoration: underline;
     font-family: cursive;
 }
 
-.about pre{
-    height: 1000px;
+.about p{
+    height: 700px;
+    text-decoration: none;
+    text-align: justify;
     font-size: x-large;
-} */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+}
+.bioabout{
+    width: 50%;
+    float: right;
+}
+.about img{
+    width: 60%;
+    max-width: 500px;
+    float: left;
+    
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+footer .fa ,.fab{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+  
+.fa:hover,.fab:hover {
+    opacity: 0.6;
+    color: black;
+}
+.porto .fa{
+    font-size: 40px;
+    width: 50px;
+}
