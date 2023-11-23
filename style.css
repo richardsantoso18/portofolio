@@ -22,6 +22,7 @@ body{
     text-decoration: none;
     font-size: 17px;
     transition: 0.3s;
+    font-weight: 500;
 }
   
 #navbar a:hover {
@@ -40,7 +41,7 @@ body{
 
 #navbar a:focus{ 
     text-decoration: underline;
-    color: black;
+
 } 
 .rightnav{
     float: right;
@@ -188,7 +189,6 @@ body{
     font-weight: lighter;
     float: right;
     line-height: 2;
-    vertical-align: middle;
     display: block;
 }
 .bioabout{
