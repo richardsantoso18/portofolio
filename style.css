@@ -105,6 +105,9 @@ body{
 
     
 }
+.education h2{
+    margin-bottom: 0px;
+}
 .edu1{
     display: block;
     height: 200px;
@@ -181,12 +184,14 @@ h2{
     text-decoration: none;
     text-align: justify;
     font-size: x-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     margin: 50px;
-    font-weight: lighter;
+    font-weight: 500;
     float: right;
     line-height: 2;
     display: block;
+    text-shadow: 2px 1px 2px  #d9d9d9;
+    -webkit-text-stroke: 0.1px #d9d9d9;
 }
 .bioabout{
     width: 50%;
